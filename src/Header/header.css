@@ -1,0 +1,13 @@
+.header{
+    color:black;
+    background-color: #4CAF50;
+    position: sticky;
+    height:50px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+@media only screen and (max-width: 600px) {
+    .header {
+      background-color: lightblue;
+    }
+  }

@@ -1,0 +1,133 @@
+.image1{
+    height: 400px;
+    width: 320px;
+    margin-left: 180px;
+    position:absolute;
+}
+.heading{
+
+        margin-left: 600px;
+        
+        
+       
+margin-top: 64px;
+display: inline-block;
+    }
+    .tag{
+        text-align: center;
+/* margin-bottom: 280px; */
+margin-left: 10px;;
+color:green;
+font-style:bold;
+font-size: 20px;
+    }
+    .tag1{
+        text-align: center;
+/* margin-bottom: 280px; */
+margin-right: 70px;
+color:black;
+/* font-style:bold; */
+font-size:30px;
+    }
+    .buttons1 {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        /* padding: 2px; */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        /* margin: 4px 2px; */
+        cursor: pointer;
+       height:50px;
+       border-radius: 12px;
+       width:150px;
+       font-style:bold;
+       /* margin-bottom: 20px; */
+       margin-top:35px;
+       padding-right:10px;
+       margin-left: 110px;
+      
+      }
+      .buttons2 {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        /* padding: 2px; */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        /* margin: 4px 2px; */
+        cursor: pointer;
+       height:50px;
+       border-radius: 12px;
+       width:150px;
+       font-style:bold;
+       /* margin-bottom: 20px; */
+       margin-top:35px;
+       padding-right:10px;
+       margin-left: 110px;
+      
+      }
+      .description{
+        color:black;
+        font-size:0.8rem;
+        margin-left:593px;
+        font-style:italic;
+      }
+      @media only screen and (max-width: 600px) {
+          .mobile{
+              display:flex
+          }
+        .image1 {
+            height: 300px;
+            margin-left: 0px;
+            width: 160px;
+          
+        }
+        .heading{
+            margin-left: 200px;
+            font-size: 15px;
+            margin-top: 10px;
+            display: block;
+        }
+        .tag{
+            /* width: 100px; */
+            margin-top: 190px;
+font-size: 15px;
+margin-left: -70px;
+display: block ruby;
+        }
+        .tag1{
+            /* width: 110px; */
+/* margim-top: 100px; */
+margin-top:  210px;
+margin-left: 198px;
+font-size: 15px;
+position: absolute;
+        }
+        .description{
+            margin-top: 230px;
+            /* margin-right: 190px; */
+            /* text-align: right; */
+            margin-left: -940px;
+            display: ruby-text;
+            width: 200px;
+        }
+        .buttons1{
+            
+position: fixed;
+margin-top: 300px;
+margin-left: 10px;
+width: 60px;
+font-size: 0.8rem;
+        }
+        .buttons2{
+            position: absolute;
+margin-top: 300px;
+width: 60px;
+font-size: 0.8rem;
+      }
+    }
