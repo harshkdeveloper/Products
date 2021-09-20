@@ -77,6 +77,16 @@ font-size:30px;
         margin-left:593px;
         font-style:italic;
       }
+      .p1{
+        margin-right:60px;
+      }
+      .p2{
+        margin-left:216px;
+        font-size:15px;
+      }
+      .p3{
+        margin-right:20px;
+      }
       @media only screen and (max-width: 600px) {
           .mobile{
               display:flex
@@ -92,13 +102,14 @@ font-size:30px;
             font-size: 15px;
             margin-top: 10px;
             display: block;
+            width: 201px;
         }
         .tag{
             /* width: 100px; */
             margin-top: 190px;
-font-size: 15px;
-margin-left: -70px;
-display: block ruby;
+            font-size: 15px;
+            margin-left: -120px;
+            display: block ruby;
         }
         .tag1{
             /* width: 110px; */
@@ -109,7 +120,7 @@ font-size: 15px;
 position: absolute;
         }
         .description{
-            margin-top: 230px;
+            margin-top: 300px;
             /* margin-right: 190px; */
             /* text-align: right; */
             margin-left: -940px;
@@ -130,4 +141,13 @@ margin-top: 300px;
 width: 60px;
 font-size: 0.8rem;
       }
+     .p1{
+display:none;
+     }
+     .p2{
+    display: none;
+    }
+     .p5{
+         display: none;
+     }
     }
